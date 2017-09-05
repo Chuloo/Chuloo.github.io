@@ -1,0 +1,36 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.page{
+    background:linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+    url('http://res.cloudinary.com/chuloo/image/upload/v1504139466/DSC_1009_m8qca4.jpg');
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    color: #E3E0E0;
+    font-family: 'lato', sans-serif;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.footer{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+.main h1{
+    font-size: 3em;
+}
+
+
